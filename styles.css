@@ -1,0 +1,15 @@
+body {
+    padding: 0 3rem;
+}
+
+article {
+    background-color: darkcyan;
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+
+}
+aside {
+    background-color: pink;
+    height: 300px;
+}
