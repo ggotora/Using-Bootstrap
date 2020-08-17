@@ -1,15 +1,19 @@
 body {
-    padding: 0 3rem;
+  padding: 0 1.25rem;
 }
 
-article {
-    background-color: darkcyan;
-    height: 300px;
-    width: 100%;
-    border: 1px solid black;
-
+img {
+  width: 100%;
 }
+
+div.featured-stories,
+div.top-story-section {
+  background-color: darkcyan;
+  width: 100%;
+  border: 1px solid black;
+}
+
 aside {
-    background-color: pink;
-    height: 300px;
+  background-color: pink;
+  height: 300px;
 }
