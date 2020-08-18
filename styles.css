@@ -28,6 +28,20 @@ header {
   color: #fff;
 }
 
+.top-header-right-item button {
+  margin-left: 0.5rem;
+  border: none;
+  color: #eee;
+  background-color: inherit;
+}
+
+button.subscribe {
+  background-color: #ffe400;
+  color: #000;
+  font-size: 11px;
+  border-radius: 24px;
+  padding: 0.2rem 0.6rem;
+}
 
 h1.brand {
   margin: 0;
