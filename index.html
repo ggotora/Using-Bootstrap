@@ -15,9 +15,9 @@
 </head>
 <body>
     <header>
-        <nav class="top-header-nav navbar">
-            <ul class="top-header-menu">
-                <li class="top-header-left-item">
+        <nav class="top-header-nav">
+            <ul class="top-header-menu d-flex justify-content-between align-items-end">
+                <li class="top-header-left-item d-none d-lg-block">
                     <ul class="left-items-items">
                         <li><a href="#"><i class='fas fa-cloud-sun'></i> 25 deg Lagos, NG <i class='fas fa-angle-right'></i></a></li>
                         <li id="todays-date">Tue, Aug 18, 2020</li>
@@ -26,44 +26,42 @@
                 <li class="top-header-middle-item">
                     <h1 class="brand"><a href="#">Newsweek</a></h1>
                 </li>
-                <li class="top-header-right-items">
-                    <ul class="right-items-items">
-                        <li class="login"><a href="#">LOGIN</a></li>
-                        <li class="suscribe-item"><button>SUBSCRIBE <i class='fas fa-angle-right'></i></button></li>
-                    </ul>
+                <li class="top-header-right-item d-flex">
+                    <button class="login">LOGIN</button>
+                    <button>SUBSCRIBE <i class='fas fa-angle-right'></i></button>
+                    <button class="d-block d-lg-none"><i class="fas fa-bars"></i></button>
                 </li>
             </ul>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
         </nav>
-        <nav class="middle-header-nav">
-            <ul class="middle-header-items">
-                <li><a href="#">U.S.</a></li>
-                <li><a href="#">World</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Tech & Science</a></li>
-                <li><a href="#">Culture</a></li>
-                <li><a href="#">Newsgeek</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Health</a></li>
-                <li><a href="#">The Debate</a></li>
-                <li><a href="#">Vantage</a></li>
-                <li><a href="#">Weather</a></li>
-                <li><a href="#">U.S.</a></li>
-                <li>Search <i class="fas fa-search"></i></li>
-            </ul>
-        </nav>
-        <nav class="bottom-header">
-            <ul class="bottom-header-items">
-                <li><a href="#" class="active">TRENDING</a></li>
-                <li><a href="#" class="active">DONALD TRUMP</a></li>
-                <li><a href="#" class="active">JOE BIDEN</a></li>
-                <li><a href="#" class="active">CHINA</a></li>
-                <li><a href="#" class="active">CORONNAVIRUS</a></li>
-                <li><a href="#" class="active">2020 ELECTION</a></li>
-            </ul>
-        </nav>
+        <div class="nav-options d-none d-lg-block">
+            <nav class="middle-header-nav">
+                <ul class="middle-header-items nav">
+                    <li class="nav-item"><a href="#">U.S.</a></li>
+                    <li class="nav-item"><a href="#">World</a></li>
+                    <li class="nav-item"><a href="#">Business</a></li>
+                    <li class="nav-item"><a href="#">Tech & Science</a></li>
+                    <li class="nav-item"><a href="#">Culture</a></li>
+                    <li class="nav-item"><a href="#">Newsgeek</a></li>
+                    <li class="nav-item"><a href="#">Sports</a></li>
+                    <li class="nav-item"><a href="#">Health</a></li>
+                    <li class="nav-item"><a href="#">The Debate</a></li>
+                    <li class="nav-item"><a href="#">Vantage</a></li>
+                    <li class="nav-item"><a href="#">Weather</a></li>
+                    <li class="nav-item"><a href="#">U.S.</a></li>
+                    <li>Search <i class="fas fa-search"></i></li>
+                </ul>
+            </nav>
+            <nav class="bottom-header">
+                <ul class="bottom-header-items nav">
+                    <li class="nav-item"><a href="#" class="active">TRENDING</a></li>
+                    <li class="nav-item"><a href="#" class="active">DONALD TRUMP</a></li>
+                    <li class="nav-item"><a href="#" class="active">JOE BIDEN</a></li>
+                    <li class="nav-item"><a href="#" class="active">CHINA</a></li>
+                    <li class="nav-item"><a href="#" class="active">CORONNAVIRUS</a></li>
+                    <li class="nav-item"><a href="#" class="active">2020 ELECTION</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 </body>
 </html>

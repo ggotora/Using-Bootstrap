@@ -1,8 +1,35 @@
-.top-header-nav {
-  border: 1px solid blue;
+* {
+  box-sizing: border-box;
 }
 
-.top-header-menu {
-  border: 1px solid red;
-  width: 100%;
+body {
+  font-size: 13px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+
+/* === Header == */
+
+header {
+  font-size: 13px;
+}
+
+.top-header-nav {
+  padding: 0.5rem 1rem 0.7rem;
+  background-color: #f72210;
+  color: #fff;
+}
+
+
+h1.brand {
+  margin: 0;
+  font-size: 1.5rem;
 }
