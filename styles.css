@@ -65,13 +65,25 @@ img {
   width: 100%;
 }
 
-.first-col {
-  width: 100%;
-}
-
-.second-col {
-  width: 100%;
-}
+.first-col,
+.second-col
 .third-col {
   width: 100%;
+}
+.aside-img {
+  width: 90px;
+  height: auto;
+}
+
+.hr {
+  display: inline-block;
+  color: red;
+  width: 100%;
+  height: 10px;
+  margin: 5px 0;
+}
+
+.more-story img {
+  width: 90px;
+  height: auto;
 }
