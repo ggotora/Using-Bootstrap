@@ -16,6 +16,12 @@ a {
   color: inherit;
 }
 
+.brand-svg {
+  fill: #fff;
+  width: 132px;
+  height: 20px;
+}
+
 /* === Header == */
 
 header {
@@ -46,4 +52,49 @@ button.subscribe {
 h1.brand {
   margin: 0;
   font-size: 1.5rem;
+}
+
+.login-icon {
+  font-size: 18px;
+}
+
+
+/* === Media for Small devices === */
+@media screen and (min-width: 768px) {
+
+}
+
+/* === Media for Medium devices === */
+@media screen and (min-width: 992px) {
+  header {
+    font-size: 15px;
+  }
+
+  .brand-svg {
+    width: 396px;
+    height: 60px;
+  }
+
+  button.subscribe {
+    font-size: 14px;
+  }
+}
+
+/* === Media for Large devices === */
+@media screen and (min-width: 1200px) {
+  body {
+    /* background-color: red; */
+  }
+
+  header {
+    font-size: 17px;
+  }
+
+  .top-header-nav {
+    padding-top: 1rem;
+  }
+
+  button.subscribe {
+    font-size: 16px;
+  }
 }
