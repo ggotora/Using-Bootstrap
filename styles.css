@@ -1,5 +1,61 @@
+/* Header */
 body {
     padding: 0 3rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.header {
+    display: none;
+  }
+
+.header-top{
+    background-color: #f72110;
+}
+.header button {
+    border: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.arrow {
+    
+    font-size: 1rem;
+}
+    
+svg {
+    fill: #fff;
+}
+
+.login {
+    background-color: #f72110;
+
+}
+.sm-screen {
+    background-color: #f72110;
+}
+
+
+.sm-screen-logo {
+    width: 150px;
+    background-color: #f72110;
+}
+
+@media only screen and (min-width: 992px) {
+    .header {
+      display: block;
+    }
+    .sm-screen {
+        display: none;
+    }
+    
+  }
+
+/* End Header */
+.one {
+    background-color: darkkhaki;
+}
+.two {
+    background-color: peachpuff;
 }
 
 article {
