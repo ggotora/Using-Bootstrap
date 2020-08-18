@@ -27,6 +27,10 @@ a {
   height: 20px;
 }
 
+.active {
+  color: #000;
+}
+
 /* == Hovers ==*/
 .nav-hover a:hover {
   text-decoration: none;
@@ -116,6 +120,11 @@ h1.brand {
   .middle-header-nav a {
     display: inline-block;
   }
+
+  .bottom-header-nav {
+    font-size: 14px;
+    padding: 0 1.5rem;
+  }
 }
 
 /* === Media for Large devices === */
@@ -132,7 +141,11 @@ h1.brand {
     font-size: 18px;
   }
 
+  .middle-header-nav {
+    font-size: 17px;
+  }
+
   .middle-header-nav li {
-    padding: 0 0.9rem;
+    padding: 0 1rem;
   }
 }
