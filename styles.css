@@ -16,7 +16,9 @@ a {
   color: inherit;
 }
 
-#search-btn {
+#search {
+  width: 80px;
+  outline: none;
   border: none;
   background-color: transparent;
 }
