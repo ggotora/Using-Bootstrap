@@ -58,21 +58,20 @@ svg {
 }
 body {
   
-    padding: 0 1.25rem;
+    
 }
 
 img {
   width: 100%;
 }
 
-div.featured-stories,
-div.top-story-section {
-  background-color: darkcyan;
+.first-col {
   width: 100%;
-  border: 1px solid black;
 }
 
-aside {
-    background-color: pink;
-    height: 300px;
+.second-col {
+  width: 100%;
+}
+.third-col {
+  width: 100%;
 }
