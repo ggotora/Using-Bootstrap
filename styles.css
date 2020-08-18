@@ -1,7 +1,10 @@
 /* Header */
-body {
-    padding: 0 3rem;
-    font-family: "Roboto Condensed", sans-serif;
+
+.wrapper {
+    margin: auto;
+    max-width: 1300px;
+
+    
 }
 
 .header {
@@ -12,10 +15,11 @@ body {
     background-color: #f72110;
 }
 .header button {
-    border: none;
     color: #fff;
     font-weight: 500;
 }
+
+
 
 .arrow {
     
@@ -28,27 +32,29 @@ svg {
 
 .login {
     background-color: #f72110;
-
+    color: #fff;
+    
 }
 .sm-screen {
-    background-color: #f72110;
+    background-color: #f72110 !important;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    border: 1px solid none;
 }
 
 
 .sm-screen-logo {
-    width: 150px;
+    width: 100px;
     background-color: #f72110;
 }
 
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
     .header {
       display: block;
     }
-    .sm-screen {
-        display: none;
-    }
     
-  }
+  } */
 
 /* End Header */
 .one {
