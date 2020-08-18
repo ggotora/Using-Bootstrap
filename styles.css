@@ -61,6 +61,10 @@ body {
     
 }
 
+a {
+  line-height: 15px !important;
+}
+
 img {
   width: 100%;
 }
@@ -69,19 +73,20 @@ img {
 .second-col
 .third-col {
   width: 100%;
+  max-width: 100%;
 }
 .aside-img {
   width: 90px;
   height: auto;
 }
-
-.hr {
-  display: inline-block;
-  color: red;
-  width: 100%;
-  height: 10px;
-  margin: 5px 0;
-}
+  /* 
+  .hr {
+    display: inline-block;
+    color: red;
+    width: 100%;
+    height: 10px;
+    margin: 5px 0;
+  } */
 
 .more-story img {
   width: 90px;
