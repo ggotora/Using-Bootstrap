@@ -1,3 +1,4 @@
+
 /* Header */
 
 .wrapper {
@@ -49,28 +50,28 @@ svg {
     background-color: #f72110;
 }
 
-/* @media only screen and (min-width: 992px) {
-    .header {
-      display: block;
-    }
-    
-  } */
-
-/* End Header */
 .one {
     background-color: darkkhaki;
 }
 .two {
     background-color: peachpuff;
 }
-
-article {
-    background-color: darkcyan;
-    height: 300px;
-    width: 100%;
-    border: 1px solid black;
-
+body {
+  
+    padding: 0 1.25rem;
 }
+
+img {
+  width: 100%;
+}
+
+div.featured-stories,
+div.top-story-section {
+  background-color: darkcyan;
+  width: 100%;
+  border: 1px solid black;
+}
+
 aside {
     background-color: pink;
     height: 300px;
