@@ -1,64 +1,87 @@
-
-/* Header */
-
-.wrapper {
-    margin: auto;
-    max-width: 1300px;
-
-    
+* {
+  box-sizing: border-box;
 }
 
-.header {
-    display: none;
-  }
-
-.header-top{
-    background-color: #f72110;
-}
-.header button {
-    color: #fff;
-    font-weight: 500;
+body {
+  font-size: 13px;
 }
 
-
-
-.arrow {
-    
-    font-size: 1rem;
-}
-    
-svg {
-    fill: #fff;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-.login {
-    background-color: #f72110;
-    color: #fff;
-    
+a {
+  color: inherit;
 }
-.sm-screen {
-    background-color: #f72110 !important;
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-    border: 1px solid none;
+
+#search {
+  width: 80px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.brand-svg {
+  fill: #fff;
+  width: 132px;
+  height: 20px;
+}
+
+.active {
+  color: #000;
+}
+
+/* == Hovers ==*/
+.nav-hover a:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+/* === Header == */
+
+header {
+  font-size: 13px;
+}
+
+.top-header-nav {
+  padding: 0.5rem 1rem 0.7rem;
+  background-color: #f72210;
+  color: #fff;
+}
+
+.top-header-right-item button {
+  margin-left: 0.5rem;
+  border: none;
+  color: #eee;
+  background-color: inherit;
+}
+
+button.subscribe {
+  background-color: #ffe400;
+  color: #000;
+  font-size: 11px;
+  border-radius: 24px;
+  padding: 0.2rem 0.6rem;
+}
+
+h1.brand {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.login-icon {
+  font-size: 18px;
 }
 
 
-.sm-screen-logo {
-    width: 100px;
-    background-color: #f72110;
-}
-
+/* == Body ? == */
 .one {
     background-color: darkkhaki;
 }
 .two {
     background-color: peachpuff;
-}
-body {
-  
-    
 }
 
 a {
@@ -91,4 +114,81 @@ img {
 .more-story img {
   width: 90px;
   height: auto;
+}
+
+/* === Media for Small devices === */
+@media screen and (min-width: 768px) {
+
+}
+
+/* === Media for Medium devices === */
+@media screen and (min-width: 992px) {
+  /* == Header == */
+  .brand-svg {
+    width: 396px;
+    height: 60px;
+  }
+
+  button.subscribe {
+    font-size: 16px;
+  }
+
+  /* -- middle-header-nav -- */
+  .middle-header-nav {
+    position: relative;
+  }
+
+  .middle-header-nav::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 80px;
+    height: 0;
+    border-top: 12px solid #f72210;
+	border-left: 12px solid transparent;
+  }
+
+  .middle-header-nav li,
+  .bottom-header-nav li {
+    padding: 0 0.65rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+  }
+
+  .middle-header-nav li:not(:first-child):not(:last-child) {
+    border-left: 1px solid #ccc;
+  }
+
+  .middle-header-nav a {
+    display: inline-block;
+  }
+
+  .bottom-header-nav {
+    font-size: 14px;
+    padding: 0 1.5rem;
+  }
+}
+
+/* === Media for Large devices === */
+@media screen and (min-width: 1200px) {
+  header {
+    font-size: 17px;
+  }
+
+  .top-header-nav {
+    padding-top: 1rem;
+  }
+
+  button.subscribe {
+    font-size: 18px;
+  }
+
+  .middle-header-nav {
+    font-size: 17px;
+  }
+
+  .middle-header-nav li {
+    padding: 0 1rem;
+  }
 }
