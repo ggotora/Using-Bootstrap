@@ -37,6 +37,10 @@ a {
   color: #f72210;
 }
 
+.blue-color {
+  color: #3581f4;
+}
+
 /* == Misc == */
 .double-border,
 .vs-badge {
@@ -90,9 +94,8 @@ h1.brand {
 
 
 /* == featured-stories == */
-.top-story,
-.featured-stories,
-.debate {
+main,
+section {
   background-color: #fff;
 }
 
