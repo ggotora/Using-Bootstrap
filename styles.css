@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #eee;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -85,9 +89,14 @@ h1.brand {
 
 
 /* == featured-stories == */
+.top-story,
+.featured-stories {
+  background-color: #fff;
+}
+
 .featured-stories {
   border: 1px solid red;
-  margin-top: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 .news-image-frame {
@@ -103,6 +112,10 @@ h1.brand {
 .section-category,
 .news-title {
   font-size: 1.15rem;
+}
+
+.news-title-2 {
+  font-size: 0.98rem;
 }
 
 /* === Media for Small devices === */
