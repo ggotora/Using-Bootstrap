@@ -1,94 +1,36 @@
 
 /* Header */
 
+img {
+  max-width: 100%;
+  display: block;
+  width: 100%;
+}
+
 .wrapper {
     margin: auto;
-    max-width: 1300px;
+    max-width: 1400px;
 
-    
-}
-
-.header {
-    display: none;
-  }
-
-.header-top{
-    background-color: #f72110;
-}
-.header button {
-    color: #fff;
-    font-weight: 500;
 }
 
-
-
-.arrow {
-    
-    font-size: 1rem;
-}
-    
-svg {
-    fill: #fff;
-}
-
-.login {
-    background-color: #f72110;
-    color: #fff;
-    
-}
-.sm-screen {
-    background-color: #f72110 !important;
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-    border: 1px solid none;
-}
-
-
-.sm-screen-logo {
-    width: 100px;
-    background-color: #f72110;
-}
-
-.one {
-    background-color: darkkhaki;
-}
-.two {
-    background-color: peachpuff;
-}
-body {
-  
-    
-}
-
-a {
-  line-height: 15px !important;
-}
-
-img {
-  width: 100%;
-}
-
-.first-col,
-.second-col
-.third-col {
-  width: 100%;
-  max-width: 100%;
-}
 .aside-img {
   width: 90px;
   height: auto;
 }
-  /* 
-  .hr {
-    display: inline-block;
-    color: red;
-    width: 100%;
-    height: 10px;
-    margin: 5px 0;
-  } */
-
+ 
 .more-story img {
   width: 90px;
   height: auto;
+}
+
+.content-height {
+  height: 200px;
+}
+
+.survey-section {
+  display: inline-block;
+  background-image: url('https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&amp;h=333&amp;f=50fc6ab9843ed86120b0dce671726563&quot');
+  background-size: cover;
+  height: 230px;
+  width: 100%;
 }
