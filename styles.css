@@ -39,6 +39,14 @@ a {
   color: #f72210;
 }
 
+/* .news-title a:hover {
+  text-decoration: underline;
+  color: inherit;
+  text-decoration-color: #f72210;
+  text-decoration-line: underline;
+  text-decoration-thickness: 10px;
+} */
+
 /* === Header == */
 
 header {
