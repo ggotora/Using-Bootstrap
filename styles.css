@@ -142,11 +142,18 @@ section {
 
 /* === Media for Small devices === */
 @media screen and (min-width: 768px) {
+  body {
+    background-color: #fff;
+  }
 
+  .survery-container {
+    width: 50%;
+  }
 }
 
 /* === Media for Medium devices === */
 @media screen and (min-width: 992px) {
+  
   /* == Header == */
   .brand-svg {
     width: 396px;
@@ -170,7 +177,7 @@ section {
     width: 80px;
     height: 0;
     border-top: 12px solid #f72210;
-	border-left: 12px solid transparent;
+	  border-left: 12px solid transparent;
   }
 
   .middle-header-nav li,
@@ -191,6 +198,10 @@ section {
   .bottom-header-nav {
     font-size: 14px;
     padding: 0 1.5rem;
+  }
+
+  .survery-container {
+    width: 100%;
   }
 }
 
