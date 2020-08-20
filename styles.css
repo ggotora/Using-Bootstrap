@@ -1,4 +1,201 @@
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 13px;
+  width: 1400px;
+  margin: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+
+#search {
+  width: 80px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.brand-svg {
+  fill: #fff;
+  width: 132px;
+  height: 20px;
+}
+
+.active {
+  color: #000;
+}
+
+/* == Hovers ==*/
+.nav-hover a:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+/* === Header == */
+
+header {
+  font-size: 13px;
+}
+
+.top-header-nav {
+  padding: 0.5rem 1rem 0.7rem;
+  background-color: #f72210;
+  color: #fff;
+}
+
+.top-header-right-item button {
+  margin-left: 0.5rem;
+  border: none;
+  color: #eee;
+  background-color: inherit;
+}
+
+button.subscribe {
+  background-color: #ffe400;
+  color: #000;
+  font-size: 11px;
+  border-radius: 24px;
+  padding: 0.2rem 0.6rem;
+}
+
+h1.brand {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.login-icon {
+  font-size: 18px;
+}
+
+
+/* == Body ? == */
+.one {
+    background-color: darkkhaki;
+}
+.two {
+    background-color: peachpuff;
+}
+
+/* a {
+  line-height: 15px !important;
+} */
+
+
+img {
+  width: 100%;
+}
+
+.first-col,
+.second-col
+.third-col {
+  width: 100%;
+  max-width: 100%;
+}
+.aside-img {
+  width: 90px;
+  height: auto;
+}
+  /* 
+  .hr {
+    display: inline-block;
+    color: red;
+    width: 100%;
+    height: 10px;
+    margin: 5px 0;
+  } */
+
+.more-story img {
+  width: 90px;
+  height: auto;
+}
+
+/* === Media for Small devices === */
+@media screen and (min-width: 768px) {
+
+}
+
+/* === Media for Medium devices === */
+@media screen and (min-width: 992px) {
+  /* == Header == */
+  .brand-svg {
+    width: 396px;
+    height: 60px;
+  }
+
+  button.subscribe {
+    font-size: 16px;
+  }
+
+  /* -- middle-header-nav -- */
+  .middle-header-nav {
+    position: relative;
+  }
+
+  .middle-header-nav::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 80px;
+    height: 0;
+    border-top: 12px solid #f72210;
+	border-left: 12px solid transparent;
+  }
+
+  .middle-header-nav li,
+  .bottom-header-nav li {
+    padding: 0 0.65rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+  }
+
+  .middle-header-nav li:not(:first-child):not(:last-child) {
+    border-left: 1px solid #ccc;
+  }
+
+  .middle-header-nav a {
+    display: inline-block;
+  }
+
+  .bottom-header-nav {
+    font-size: 14px;
+    padding: 0 1.5rem;
+  }
+}
+
+/* === Media for Large devices === */
+@media screen and (min-width: 1200px) {
+  header {
+    font-size: 17px;
+  }
+
+  .top-header-nav {
+    padding-top: 1rem;
+  }
+
+  button.subscribe {
+    font-size: 18px;
+  }
+
+  .middle-header-nav {
+    font-size: 17px;
+  }
+
+  .middle-header-nav li {
+    padding: 0 1rem;
+  }
+}
 /* Header */
 
 img {
@@ -7,30 +204,102 @@ img {
   width: 100%;
 }
 
-.wrapper {
-    margin: auto;
-    max-width: 1400px;
-
+/* begin main section */
+.featured-stories {
+  grid-area: fa;
+  
+}
+.top-story { 
+  grid-area: ts;
+}
+.debate-opinion {
+ grid-area: as;
 }
 
-.aside-img {
-  width: 90px;
-  height: auto;
+.surveys {
+ grid-area: sv;
 }
+.my-turn-culture {
+ grid-area: mtc;
  
-.more-story img {
-  width: 90px;
-  height: auto;
 }
 
-.content-height {
-  height: 200px;
+.sponsored {
+ background-color: salmon;
+ grid-area: sp;
 }
 
-.survey-section {
-  display: inline-block;
-  background-image: url('https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&amp;h=333&amp;f=50fc6ab9843ed86120b0dce671726563&quot');
-  background-size: cover;
-  height: 230px;
-  width: 100%;
+.more-stories {
+ grid-area: ms;
+ position: sticky;
+}
+
+@media screen and (min-width: 768px){
+.wrapper {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-areas: 
+      "fa  ts "
+      "fa mtc"
+      "fa  ms"
+      "fa  ms"
+      "sv   ms"
+      "as as"
+      "sp sp"
+  ;
+
+}
+
+}
+@media screen and (min-width: 992px){
+.wrapper {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 1fr 2fr 1fr; 
+  grid-template-areas: 
+      "fa  ts   as"
+      "fa  mtc  as"
+      "fa   ms  as"
+      "fa   ms  as"
+      "sv  ms   sp"
+  ;
+
+}
+
+} 
+.card-body   {
+  position: relative;
+}
+
+.pic-catergory {
+  position: absolute;
+  width: max-content;
+  top: -30px;
+  left: 8px;
+}
+
+.pic-catergory-2 {
+  position: absolute;
+  width: max-content;
+  top: -40px;
+  left: 0;
+  
+}
+
+
+
+/* End main section */
+
+/* In the Magazine Section */
+
+.mag-issue {
+  position: absolute;
+  bottom: 52px;
+}
+
+.see-all:hover {
+  background-color: #ccc;
+  text-decoration: none;
+  
 }
