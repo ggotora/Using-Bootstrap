@@ -70,6 +70,14 @@ a {
   height: 28px;
 }
 
+.sub-img-2 {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
 /* == Hovers ==*/
 .nav-hover a:hover {
   text-decoration: none;
