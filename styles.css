@@ -170,7 +170,10 @@ section {
 
 /* === Media for Medium devices === */
 @media screen and (min-width: 992px) {
-  
+  img {
+    max-width: 100%;
+  }
+
   /* == Header == */
   .brand-svg {
     width: 396px;
