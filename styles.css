@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -74,14 +73,13 @@ a {
   height: 28px;
 }
 
-/* == Hovers ==*/
+/* == Hovers == */
 .nav-hover a:hover {
   text-decoration: none;
   color: #f72210;
 }
 
 /* === Header == */
-
 header {
   font-size: 13px;
   max-width: 100vw;
@@ -117,7 +115,6 @@ h1.brand {
 .login-icon {
   font-size: 18px;
 }
-
 
 /* == featured-stories == */
 main,
@@ -209,7 +206,7 @@ section {
     width: 80px;
     height: 0;
     border-top: 12px solid #f72210;
-	  border-left: 12px solid transparent;
+    border-left: 12px solid transparent;
   }
 
   .middle-header-nav li,
@@ -260,11 +257,11 @@ section {
   }
 }
 
-
 /* subscribe and newsletter */
 .mag-pile {
   position: relative;
 }
+
 .top-img {
   position: absolute;
   left: 100px;
@@ -279,18 +276,21 @@ section {
   font-size: 1.5rem;
   display: block;
 }
+
 .fab:hover {
   color: #3581f4 !important;
   cursor: pointer;
 }
+
 .cta-wrapper {
   width: 100%;
   height: 80%;
-  background-color: #F4F5F6;
+  background-color: #f4f5f6;
   padding: 2rem;
 }
+
 /* Footer */
-.footer-svg  {
-  fill: red;
+.footer-svg {
+  fill: #f72210;
   width: 290px;
 }
