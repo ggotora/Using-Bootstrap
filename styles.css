@@ -281,6 +281,9 @@ section {
   background-color: #F4F5F6;
   padding: 2rem;
 }
+input {
+  max-width: 100%;
+}
 /* Footer */
 .footer-svg  {
   fill: red;
