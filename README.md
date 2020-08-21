@@ -1,21 +1,24 @@
-# Building with responsive design
+# Using Bootstrap to clone [Newsweek.com](https://www.newsweek.com/)
 
 > This project was developed as a learning project part of the Microverse curriculum.
 
 ![screenshot](./images/screenshot.jpg)
 
-An HTML and CSS mockup of the homepage of the next web. We used Grid and Flexbox properties to achieve the same layout and proportions of the original page, background properties and gradients for styling and made the whole site responsive.
+An HTML and CSS mockup of the homepage of [Newsweek.com](https://www.newsweek.com/). This project utilizes Bootstrap 4 -- 
+A CSS framework that ease the building of webpage. The layout of the page was achieved using Bootstraps with comes with predefined classes for creating columns and rows.
 
 ## Live demo
 
-🔗 [TheNextWeb Website Clone](https://rawcdn.githack.com/belsman/Building-with-Responsive-Design/7a9c41e756b39650145ffc75dfecb6bafd717b8c/index.html)
+🔗 [Newsweek Website Clone](https://rawcdn.githack.com/belsman/Using-Bootstrap/d571720c25fd80a11b4c66579cb70a27c8624a5c/index.html)
 
 ## Built With
 
-- HTML5,
-- CSS3,
-- Google Fonts,
+- HTML5
+- CSS3
+- Google Fonts
 - Font awesome
+- Bootstrap 4
+- Source text and images from the original page.
 
 
 ## Getting Started
