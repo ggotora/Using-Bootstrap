@@ -63,6 +63,11 @@ a {
   left: 50%;
 }
 
+img.media-size {
+  width: 95px;
+  height: auto;
+}
+
 .n-icon {
   background-image: url(./images/logo-n1.svg);
   background-repeat: no-repeat;
