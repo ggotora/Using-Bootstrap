@@ -60,6 +60,16 @@ a {
   left: 50%;
 }
 
+.n-icon {
+  background-image: url(./images/logo-n1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #f72210;
+  width: 29px;
+  height: 28px;
+}
+
 /* == Hovers ==*/
 .nav-hover a:hover {
   text-decoration: none;
@@ -152,6 +162,10 @@ section {
   .survery-container {
     width: 50%;
   }
+
+  .flex-base-25 {
+    flex-basis: 25%;
+  }
 }
 
 /* === Media for Medium devices === */
@@ -229,78 +243,4 @@ section {
   .middle-header-nav li {
     padding: 0 1rem;
   }
-}
-/* Header */
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
-.card-body   {
-  position: relative;
-}
-
-.pic-catergory {
-  position: absolute;
-  width: max-content;
-  top: -30px;
-  left: 8px;
-}
-
-.pic-catergory-2 {
-  position: absolute;
-  width: max-content;
-  top: -40px;
-  left: 0;
-  
-}
-
-
-
-/* End main section */
-
-/* In the Magazine Section */
-
-.mag-issue {
-  position: absolute;
-  bottom: 52px;
-}
-
-.see-all:hover {
-  background-color: #ccc;
-  text-decoration: none;
-  
-}
-
-/* End in the Magazine Section */
-
-/* Subscribe Section */
-
-.mag-pile {
-  position: relative;
-}
-.top-img {
-  position: absolute;
-  top: 15px;
-  left: 100px
-}
-
-.subscribe-bg-img {
-  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
-  width: 100%;
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-/* Footer */
-
-.footer-svg {
-  fill: #f72210;
-  width: 240px;
-}
-
-.fab {
-  font-size: 1.4rem;
 }
