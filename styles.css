@@ -70,14 +70,29 @@ a {
   height: 28px;
 }
 
-.sub-img-2 {
+.gray-bg {
+  background-color: #eee;
+}
+
+.subs-img-container {
+  position: relative;
+  width: 260px;
+  height: 288px;
+}
+
+.subs-img-1 {
   position: absolute;
-  top: 6%;
-  left: 50%;
-  width: 100%;
-  height: auto;
+  top: 0;
+  left: 0;
+}
+
+.subs-img-2 {
+  position: absolute;
+  top: 15px;
+  right: 0;
   z-index: 1;
 }
+
 /* == Hovers ==*/
 .nav-hover a:hover {
   text-decoration: none;
@@ -173,6 +188,14 @@ section {
 
   .flex-base-25 {
     flex-basis: 25%;
+  }
+
+  .news-letter-bg-img {
+    background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 180px;
   }
 }
 
