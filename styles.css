@@ -37,6 +37,7 @@ img {
 
 .active {
   color: #000;
+  font-weight: 600;
 }
 
 .red-color {
@@ -186,6 +187,23 @@ section {
   width: 100%;
   top: 10px;
   left: 75px;
+}
+
+/* == Footer == */
+footer {
+  background-color: #fff;
+}
+
+.footer-log,
+.footer-svg {
+  display: block;
+  width: 236px;
+  height: 36px;
+  fill: #f72210;
+}
+
+.footer-icons {
+  font-size: 18px;
 }
 
 /* === Media for Small devices === */
