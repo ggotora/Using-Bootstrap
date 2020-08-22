@@ -5,8 +5,6 @@
 body {
   font-size: 13px;
   background-color: #eee;
-  width: 1400px;
-
 }
 
 ul {
@@ -23,6 +21,7 @@ img {
   max-width: 100%;
   display: block;
 }
+
 #search {
   width: 80px;
   outline: none;
@@ -295,6 +294,7 @@ section {
   background-color: #f4f5f6;
   padding: 2rem;
 }
+
 /* Footer */
 .footer-svg {
   fill: #f72210;
