@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Webbrowser and access to internet
+Web browser and access to internet
 
 ### Install
 

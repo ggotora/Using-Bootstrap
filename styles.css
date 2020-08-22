@@ -40,14 +40,6 @@ img {
   font-weight: 600;
 }
 
-.red-color {
-  color: #f72210;
-}
-
-.red-bg {
-  background-color: #f72210;
-}
-
 .blue-color {
   color: #3581f4;
 }
@@ -184,10 +176,10 @@ section {
   transform: translate(0, -40%);
 }
 
-.banner-frame-1 img {
+/* .banner-frame-1 img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 .subs-img-2 {
   position: absolute;
@@ -197,10 +189,6 @@ section {
 }
 
 /* == Footer == */
-footer {
-  background-color: #fff;
-}
-
 .footer-log,
 .footer-svg {
   display: block;
