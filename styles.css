@@ -81,6 +81,13 @@ img.media-size {
 }
 
 /* == Hovers == */
+.news-title > a:hover {
+  text-decoration-color: #f72210;
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  color: #f72210;
+}
+
 .nav-hover a:hover {
   text-decoration: none;
   color: #f72210;
@@ -227,7 +234,7 @@ footer {
     background-position: center;
     width: 180px;
   }
-  
+
   /* == Newletter section == */
   .newletter-bg {
     height: 100%;
@@ -237,6 +244,7 @@ footer {
     background-position: center;
   }
 }
+
 /* === Media for Medium devices === */
 @media screen and (min-width: 992px) {
   img {
