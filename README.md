@@ -2,7 +2,7 @@
 
 > This project was developed as a learning project part of the Microverse curriculum.
 
-![screenshot](./images/screenshot.jpg)
+![screenshot](./images/screenshot.png)
 
 An HTML and CSS mockup of the homepage of [Newsweek.com](https://www.newsweek.com/). This project utilizes Bootstrap 4 -- 
 A CSS framework that ease the building of webpage. The layout of the page was achieved using Bootstraps with comes with predefined classes for creating columns and rows.
