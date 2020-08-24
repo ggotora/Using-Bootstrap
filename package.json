@@ -1,0 +1,29 @@
+{
+  "name": "Using-Bootstrap",
+  "version": "1.0.0",
+  "description": "> This project was developed as a learning project part of the Microverse curriculum.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run webhint && npm run stylelint",
+    "webhint": "npx hint .",
+    "stylelint": "npx stylelint \"**/*.{css,scss}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belsman/Using-Bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belsman/Using-Bootstrap/issues"
+  },
+  "homepage": "https://github.com/belsman/Using-Bootstrap#readme",
+  "devDependencies": {
+    "hint": "^6.0.7",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.17.2"
+  }
+}
